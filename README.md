@@ -16,5 +16,10 @@ Templatebase javascript on server side using mozjs and rust lang.
 ```
 
 ### Based On Mozjs (Spidermonkey)
-
 [https://github.com/servo/mozjs](https://github.com/servo/mozjs)
+
+### Dependencies
+[rust-mozjs](https://github.com/servo/rust-mozjs)
+[servo](https://github.com/servo/servo)
+[hyper](https://github.com/hyperium/hyper)
+[tiny_http](https://github.com/hyperium/hyper)
