@@ -1,0 +1,24 @@
+[package] 
+name = "servo"
+version = "0.0.1"
+authors = ["The Servo Project Developers"]
+license = "MPL-2.0"
+build = "build.rs"
+publish = false
+
+[[bin]]
+name = "servo"
+path = "main.rs" 
+ 
+[dependencies.js]
+git = "https://github.com/servo/rust-mozjs"
+
+[dependencies]
+"libc" = "0.2"   
+"iron" = "0.4.*"   
+"tiny_http" = "0.5"   
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper"
+                            
+ 
